@@ -1,0 +1,86 @@
+body{
+    background-color:white;
+}
+.container{
+    display: flex;
+    height: 700px;
+    width: 1505px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    
+}
+.profile{
+    height: 680px;
+    width: 320px;
+    margin-top:10px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+   
+}
+.profile1{
+    height: 380px;
+    width: 305px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.profile2{
+    height: 270px;
+    width: 305px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+.content{
+    height: 680px;
+    width: 850px;
+    margin-top: 10px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+}
+.content1{
+  height: 200px;
+  width: 835px;
+  margin-top: 10px;
+  margin-left: 5px;
+
+  border: 1px solid black;
+}
+.content2{
+  height: 450px;
+  width: 835px;
+  margin-top: 10px;
+  margin-left: 5px;
+  
+  border: 1px solid black;
+}
+.chats{
+    height: 680px;
+    width: 305px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+} 
+.chats1{
+    height: 200px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+} 
+.chats2{
+    height: 340px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+} 
+.chats3{
+    height: 95px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 1px solid black;
+} 
+
