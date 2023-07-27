@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    height: 250px;
+    width: 350px;
+    border: 1px solid rgb(235, 229, 229);
+    background-color: white;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 550px;
+    display: block;
+    font-style: bold;
+    padding: 20px;
+    
+}
+.btn input{
+    margin-top:7px; 
+    height : 27px; 
+    width: 350px;
+    background-color: rgb(48, 230, 48);
+     border: 1px solid rgb(48, 252, 48); 
+     color: white;
+}
+input{
+    border: 1px solid grey;
+}
