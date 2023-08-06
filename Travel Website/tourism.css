@@ -1,0 +1,258 @@
+#hdr{
+    height: 80PX;
+    background-color: rgba(7, 84, 28, 0.6);
+    display: flex;
+    flex-direction: row;
+    /* column-gap: 30px; */
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+}
+.hdr1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    justify-content: space-evenly;
+}
+.hdr1 a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-style: bolder;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 700px;
+    width: 1500px;
+    justify-content: center;
+   
+    
+    /* border: 2px solid black; */
+
+ &::before { 
+    position: absolute;
+    content: "";   
+    background-image: url(images/home.jpeg); 
+    background-repeat: no-repeat;
+    background-clip:border-box;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left:0px;
+    background-size: 1500px 700px;
+    opacity: 0.9;
+    }
+}
+.start{
+    height:280px;
+    width: 580px;
+    position: relative;
+    top:150px;
+    border-radius: 30px;
+}
+.start p{
+    font-size: 60px; 
+    font-family: Recoleta;
+    color:black;
+    line-height: 0.7px;
+    text-align: center;
+}
+.b{
+   
+    font-size: 3px;
+}
+ button{
+    height: 50px;
+    width: 200px;
+    background-color:white;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 200px;
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: bold;
+} 
+button a{
+    text-decoration: none;
+    color: black;
+} 
+#aboutus{
+    background-color: rgb(224, 230, 232);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1500px;
+}
+.aboutus{
+    width: 60%;
+    font-size: 20px;
+    line-height: 35px;
+}
+#aboutus img{
+    margin-top: 50px;
+    height: 50vh;
+    width: 70vh;
+}
+ .container1{
+   background-color:rgb(224, 230, 232);
+   height: 400px;
+   width: 1500px;
+   margin-top: 20px;
+   /* border: 1px solid black; */
+} 
+.row1{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 1500px;
+    /* border: 1px solid black;   */
+    justify-content: space-evenly; 
+    align-items: center;
+} 
+.row1-items{
+    height: 350px;
+    width: 280px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+} 
+.row1-items p{
+    font-size: 15PX;
+    text-align: center; 
+    margin-top: -10PX;
+
+}
+.row1-items a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#imgs{
+    width: 280px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+.row1-items:hover{
+    transform:scale(1.1);
+}
+.advcontainer{
+    margin: 0px;
+    min-height: 800px;
+    margin-top: 20px;
+    width:1500px;
+    /* border: 1px solid black; */
+    background-color:white;
+}
+.hdr{
+    
+    color: white;
+    font-weight: bolder;
+    position: sticky;
+    z-index: 1;
+    background-color: rgb(15, 14, 14);
+    height: 35px;
+    top: 0;
+}
+.itemodd{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 10px;
+    /* border: 1px solid black; */
+    max-height: 95vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px rgba(21, 21, 21, 0.1) ;
+}
+.contentcontainer p{
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px;
+    font-family:lucida;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+#images{
+    height: 300px;
+    width: 300px;border-radius: 20px;
+}
+.itemeven{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 10px;
+    /* border: 1px solid black; */
+    max-height: 95vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 15px 15px rgba(21, 21, 21, 0.1) ;
+
+}
+.grid-row{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#queries div{
+    font-size: 23px;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.queries{
+    height: 60vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(224, 230, 232);
+}
+label{
+    font-size: 18px;
+    padding: 5px;
+}
+form{
+    height: 150%;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+input{
+    width: 70%;
+    height: 2%;
+    padding: 7px;
+}
+.queries button{
+    width: 40%;
+    height: 5%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    align-self: stretch;
+}
+#submit{
+    height: 6%;
+    width: 20%;
+    background-color:rgba(7, 84, 28, 0.6) ;
+    color: white;
+    font-size: 20px;
+}
+.ftr{
+    margin-top: 10px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    background-color:rgba(7, 84, 28, 0.6) ;
+    justify-content: space-evenly;   
+}
+#followuson #img{
+    height: 30px;
+    width: 30px;
+}
